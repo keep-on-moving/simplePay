@@ -14,6 +14,9 @@
         "php": ">=7.0"
     },
     "autoload": {
-        "psr-4": {"Payment\\": "src/Payment"}
+        "psr-4": {
+            "Payment\\": "src/Payment",
+            "Payment\\Simple":"src/Payment/Simple"
+        }
     }
 }
