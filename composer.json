@@ -1,0 +1,19 @@
+{
+    "name": "simple-pay/simple-pay",
+    "type": "library",
+    "license": "Apache-2.0",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "keep-on-moving",
+            "email": "524849753@qq.com",
+            "homepage": "https://github.com/keep-on-moving/simplePay"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {"Payment\\": "src/Payment"}
+    }
+}
