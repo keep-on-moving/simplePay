@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 use Payment\Wechat;
 
-$wechat = new Wechat('wx2decb75684533316', '1501389821', 'Q8X9D0C9XJ4U8FJ0DMF9V0D9CU4JD8AD', 'c19a6c13a5236334f7d455e602e1f116');
+$wechat = new Wechat('wx2231b75684533316', '1501332329821', 'Q8X9D0C9XJ4U8FJ023123123D9CU4JD8AD', 'c19a6222334f7d455e602e1f116');
 
 // +----------------------------------------------------------------------
 // | 微信JsApi支付前刷新获取微信公众号配置
@@ -60,8 +60,8 @@ Array
 // | APP统一下单接口
 // +----------------------------------------------------------------------
 //$data = array(
-//    'appid' => 'wx2decb75684533316',
-//    'mch_id' => trim('1501389821'),
+//    'appid' => 'wx2decb75684523216',
+//    'mch_id' => trim('15012329821'),
 //    'nonce_str' => md5(rand(100000,999999)),//随机串
 //    'sign_type' => 'MD5',
 //    'body' => '这是商品描述',//商品描述
@@ -80,7 +80,7 @@ Array
     [msg] => 请求成功
     [data] => Array
         (
-            [appid] => wx2decb75684533316
+            [appid] => wx2decb75232533316
             [partnerid] => 1501389821
             [prepayid] => wx19151434358615bb561723f21570864400
             [package] => Sign=WXPay
@@ -99,7 +99,7 @@ $testxml  = file_get_contents("php://input");  //接收微信发送的支付成�
 $result = XMLDataParse($testxml);
 /** 数据示例
 $result = array(
-    "appid" => "wx2421b666370ec43b",
+    "appid" => "wx2421b63211370ec43b",
     "attach" =>  "支付测试",
     "bank_type" =>"CFT",
     "fee_type" =>  "CNY",
