@@ -16,7 +16,7 @@
     "autoload": {
         "psr-4": {
             "Payment\\": "src/Payment",
-            "Payment\\Simple":"src/Payment/Simple"
+            "Payment\\Simple\\": "src/Payment/Simple"
         }
     }
 }
