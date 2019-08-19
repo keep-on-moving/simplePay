@@ -3,7 +3,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 use Payment\Wechat;
 
 
-$wechat = new Wechat('wxc592d2ea3a8ebd05', '1501307751', '3A4XEJCOD9M5F0D8RN0S9CIE8F0FM5KW', '8d561817a002c1ab6cfaa6cfca6e2c22');
+$wechat = new Wechat('', '', '', '');
 
 // +----------------------------------------------------------------------
 // | 微信JsApi支付前刷新获取微信公众号配置
