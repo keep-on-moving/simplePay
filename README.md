@@ -3,7 +3,7 @@
 
 #composer 安装
 
-`composer require keep-on-moving/simplePay` 
+`composer require simple-pay/simple-pay` 
 
 #使用方法
 - 引入微信包
