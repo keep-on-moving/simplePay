@@ -2,7 +2,6 @@
     "name": "simple-pay/simple-pay",
     "type": "library",
     "license": "Apache-2.0",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "keep-on-moving",
@@ -17,6 +16,11 @@
         "psr-4": {
             "Payment\\": "src/Payment",
             "Payment\\Simple\\": "src/Payment/Simple"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.1-dev"
         }
     }
 }
