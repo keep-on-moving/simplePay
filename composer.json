@@ -18,9 +18,6 @@
             "Payment\\Simple\\": "src/Payment/Simple"
         }
     },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.2-dev"
-        }
-    }
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
