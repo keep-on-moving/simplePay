@@ -9,7 +9,6 @@
 - 引入微信包
 
 ```
-require_once __DIR__ . '/../vendor/autoload.php';
 use Payment\Wechat;
 
 $wechat = new Wechat('自己的APPid', '商户号', 'key', 'appsecret');
